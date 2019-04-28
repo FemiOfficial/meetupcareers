@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Meet-up Careers</title>
+ <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta-Tags -->
+	
+	<!-- css files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+	<link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
+	
+    <!-- //css files -->
+    
+    <!-- js files -->
+	<script type = "text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  
+	<script type = "text/javascript" src="js/bootstrap.js"></script>
+	<!-- js files -->
+	
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<!-- //google fonts -->
+	
+</head>
+<body>
+    <nav class="py-3 d-lg-flex navbar">
+                <div id="logo">
+                    <h1> <a href="index.html"><img src="images/s2.png" alt=""> MeetupCareers</a></h1>
+                </div>
+    </nav>
+
+<div class="signupform">
+    
+	<div class="container">
+        
+		<!-- main content -->
+		<div class="agile_info row">
+			<div class="w3l_form col-lg-6">
+				<div class="left_grid_info">
+					<img src="images/e4.png" alt="" />
+
+					<h1>MeetupCareers</h1>
+					<p>It's great to have you back......</p>
+				</div>
+			</div>
+			<div class="l_info col-lg-6 mt-5" id="loginform">
+				<h2>Login to your Account</h2>
+				<p>Enter your details to login.</p>
+				<!-- <form action="/dashboard.html" method="post"> -->
+					<label>Email Address</label>
+					<div class="input-group">
+						<span class="fa fa-envelope" aria-hidden="true"></span>
+						<input type="email" placeholder="Enter Your Email" required=""> 
+					</div>
+					<label>Password</label>
+					<div class="input-group">
+						<span class="fa fa-lock" aria-hidden="true"></span>
+						<input type="Password" placeholder="Enter Password" required="">
+					</div> 
+					<div class="login-check">
+						 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i> Remember me</label>
+					</div>						
+						<button class="btn btn-danger btn-block" type="submit"onclick = "window.open('dashboard.html', '_self')">Login</button >                
+				<!-- </form> -->
+				<p class="account1">Dont have an account? <button class="register-login-toggle" onclick="showRegisterForm()">Register here</button></p>
+            </div>
+            <div class="l_info col-lg-6" id="registerform" style="display:none">
+                    <h2>Create an Account</h2>
+                    <p>Complete the registration form.</p>
+                    <!-- <form action="#" method="post">
+                 -->
+                        <label>Email Address</label>
+                        <div class="input-group">
+                            <span class="fa fa-envelope" aria-hidden="true"></span>
+                            <input type="email" placeholder="Enter Your Email" required=""> 
+                        </div>
+                        <label>Firstname</label>
+                        <div class="input-group">
+                            <span class="fa fa-user" aria-hidden="true"></span>
+                            <input type="text" placeholder="Enter Your Firstname" required=""> 
+                        </div>
+                        <label>Lastname</label>
+                        <div class="input-group">
+                            <span class="fa fa-user" aria-hidden="true"></span>
+                            <input type="text" placeholder="Enter Your Lastname" required=""> 
+                        </div>
+                        <label>Password</label>
+                        <div class="input-group">
+                            <span class="fa fa-lock" aria-hidden="true"></span>
+                            <input type="Password" placeholder="Enter Password" required="">
+                        </div> 
+                        <label>Mentor or Mentee</label>
+                                <select>
+                                    <option value="0">Mentor or Mentee</option>
+                                    <option value="1">Mentor</option>
+                                    <option value="2">Mentee</option>
+                                </select>                            
+                        <div class="login-check">
+                             <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i> Remember me</label>
+                        </div>						
+                            <button class="btn btn-danger btn-block" onclick = "window.open('dashboard.html', '_self')">Register</button >                
+                    <!-- </form> -->
+                    <p class="account">By clicking login, you agree to our <a href="#">Terms & Conditions!</a></p>
+                    <p class="account1">Have an account?  <button class="register-login-toggle" onclick="showLoginForm()">Login Here</button></p>
+                </div>
+		</div>
+		<!-- //main content -->
+	</div>
+</div>
+
+<!-- copyright -->
+<section class="copyright">
+        <div class="container py-4">
+            <div class="row bottom">
+                <ul class="col-lg-6 links p-0">
+                    <li><a href="#" class="">About</a></li>
+                    <li><a href="#" class="">Support </a></li>
+                </ul>
+                <div class="col-lg-6 copy-right p-0">
+                    <p class="">© 2019 MeetupCareers. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //copyright -->
+    
+    <!-- move top -->
+    <div class="move-top text-right">
+        <a href="#home" class="move-top"> 
+            <span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+        </a>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
